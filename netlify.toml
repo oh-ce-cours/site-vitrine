@@ -28,3 +28,16 @@ HUGO_VERSION = "0.75.1"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[build.processing]
+skip_processing = false
+[build.processing.css]
+bundle = true
+minify = false
+[build.processing.js]
+bundle = true
+minify = false
+[build.processing.html]
+pretty_urls = true
+[build.processing.images]
+compress = true
