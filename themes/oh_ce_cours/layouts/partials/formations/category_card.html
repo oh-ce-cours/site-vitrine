@@ -1,0 +1,25 @@
+<div class="col-lg-4 mb-4">
+    <div class="flip-card text-center">
+        <div class="flip-card-front dark" style="background-image: url('{{ .Params.image }}')">
+            <div class="flip-card-inner">
+                <div class="card bg-transparent border-0 text-center">
+                    <div class="card-body">
+                        <i class="{{ .Params.icon }} h1"></i>
+                        <h3 class="card-title">Formations {{.Title}}</h3>
+                        <p class="card-text font-weight-normal">{{ .Params.catchphrase }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card-back bg-danger no-after">
+            <div class="flip-card-inner">
+                <p class="mb-2 text-white">Du débutant au confirmé, tout le monde y
+                    trouvera son compte.</p>
+                <a href="{{ .URL }}">
+                    <button type="button" class="btn btn-outline-light mt-2">Voir
+                        nos formations</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

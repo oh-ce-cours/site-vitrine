@@ -1,0 +1,37 @@
+{{ with .Params.sessions }}
+<div class="widget clearfix">
+    <h4>Prochaines sessions</h4>
+    <div class="posts-sm row col-mb-30" id="post-list-sidebar">
+        {{ range . }}
+        <div class="entry col-12">
+            <div class="grid-inner row no-gutters">
+                <div class="col-auto">
+                    <div class="entry-image">
+                        <img src="{{ .image }}" alt="{{ .city }}">
+                    </div>
+                </div>
+                <div class="col pl-3">
+                    <div class="entry-title">
+                        <h4>{{ .date }}
+                        </h4>
+                    </div>
+                    <div class="entry-meta">
+                        <ul>
+                            <li>{{ .city }}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
+
+<div class="widget clearfix">
+
+    <h4>Intéréssés ? </h4>
+
+    {{ partial "elements/button_contact_formations.html" . }}
+
+</div>

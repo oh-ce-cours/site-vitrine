@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+{{- partial "head.html" . -}}
+
+
+<body class="stretched">
+
+    <!-- Document Wrapper
+	============================================= -->
+    <div id="wrapper" class="clearfix">
+        {{- partial "header.html" . -}}
+
+        <section id="content">
+            <!-- catchphrase -->
+            <div class="section bg-transparent">
+                <div class="container">
+                    <div class="row justify-colomn-center mb-5">
+                        <div class="col-12">
+                            <h1>
+                                Les formations en {{ .Title }}
+                            </h1>
+                            <p>
+                                {{ .Content }}
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="section bg-transparent">
+                <div class="container">
+                    <div class="fancy-title title-border">
+                        <h2>C et C++ </h2>
+                    </div>
+
+                    <div>
+                        <p>
+                            Nos formations visent...
+                        </p>
+                    </div>
+
+                    <div class="row justify-content-center col-mb-50 mb-0">
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="feature-box fbox-center fbox-bg fbox-outline fbox-effect">
+                                <div class="fbox-icon">
+                                    <a href="#"><i>C</i></a>
+                                </div>
+                                <div class="fbox-content">
+                                    <h3>Formation C débutant<span class="subtitle">catchphrase c débutant</span></h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="feature-box fbox-center fbox-bg fbox-outline fbox-effect">
+                                <div class="fbox-icon">
+                                    <a href="#"><i>C</i></a>
+                                </div>
+                                <div class="fbox-content">
+                                    <h3>Formation C avancé<span class="subtitle">catchphrase c avancé</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section bg-transparent">
+                <div class="container">
+                    <div class="fancy-title title-border">
+                        <h2>Python</h2>
+                    </div>
+
+
+                    <div>
+                        <p>
+                            Python est le langage du futur, mais personne ne sait en écrire...
+                        </p>
+                    </div>
+
+                    <div class="row justify-content-center col-mb-50 mb-0">
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="feature-box fbox-center fbox-bg fbox-outline fbox-effect">
+                                <div class="fbox-icon">
+                                    <a href="#"> <i class=" icon-python inline-block"></i>
+                                    </a>
+                                </div>
+                                <div class="fbox-content">
+                                    <h3>Formation Python débutant<span class="subtitle">catchphrase c débutant</span>
+                                    </h3>
+
+                                    <a href="/formations/developpement/python-debutant.html" style="margin-top: 1em;"
+                                        class="button button-rounded ml-3 d-none d-sm-block">Accéder au programme</a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="feature-box fbox-center fbox-bg fbox-outline fbox-effect">
+                                <div class="fbox-icon">
+                                    <a href="#"> <i class=" icon-python inline-block"></i>
+                                    </a>
+                                </div>
+                                <div class="fbox-content">
+                                    <h3>Formation Python objet<span class="subtitle">catchphrase c débutant</span>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="feature-box fbox-center fbox-bg fbox-outline fbox-effect">
+                                <div class="fbox-icon">
+                                    <a href="#"> <i class=" icon-python inline-block"></i>
+                                    </a>
+                                </div>
+                                <div class="fbox-content">
+                                    <h3>Formation Python avancé<span class="subtitle">catchphrase c débutant</span>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="feature-box fbox-center fbox-bg fbox-outline fbox-effect">
+                                <div class="fbox-icon">
+                                    <a href="#"> <i class=" icon-python inline-block"></i>
+                                    </a>
+                                </div>
+                                <div class="fbox-content">
+                                    <h3>Formation Python scientifique<span class="subtitle">catchphrase c
+                                            débutant</span>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="feature-box fbox-center fbox-bg fbox-outline fbox-effect">
+                                <div class="fbox-icon">
+                                    <a href="#"> <i class=" icon-python inline-block"></i>
+                                    </a>
+                                </div>
+                                <div class="fbox-content">
+                                    <h3>Formation Python idiomatique<span class="subtitle">Apprenez à écrire du code
+                                            pythonique</span>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="feature-box fbox-center fbox-bg fbox-outline fbox-effect">
+                                <div class="fbox-icon">
+                                    <a href="#"> <i class=" icon-python inline-block"></i>
+                                    </a>
+                                </div>
+                                <div class="fbox-content">
+                                    <h3>Formation Clean Code en Python<span class="subtitle">catchphrase c
+                                            débutant</span>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        {{- partial "footer.html" . -}}
+        {{- partial "script.html" . -}}
+    </div>
+</body>
+
+</html>

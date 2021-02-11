@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Experts on Oh Ce Cours</title>
+    <link>http://localhost:1313/experts/</link>
+    <description>Recent content in Experts on Oh Ce Cours</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language><atom:link href="http://localhost:1313/experts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Matthieu Falce</title>
+      <link>http://localhost:1313/experts/matthieu-falce/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/experts/matthieu-falce/</guid>
+      <description>Touche à tout en développement, Matthieu s&amp;rsquo;intéresse avant tout à résoudre des problèmes concrets.
+Il vous accompagnera sur ses domaines de prédilections en python :
+ la data science la dataviz le développement web  Il pourra également vous aider à découvrir le monde du devops</description>
+    </item>
+    
+    <item>
+      <title>Yves Duprat</title>
+      <link>http://localhost:1313/experts/yves-duprat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/experts/yves-duprat/</guid>
+      <description>Yves est développeur Python freelance depuis 15 ans. Son activité professionnelle Python se répartit à part égale, entre du développement et de la transmission de savoir aussi bien en écoles d&amp;rsquo;ingénieur qu&amp;rsquo;en formation auprès des entreprises. Il intervient aussi sur des sessions de formation en C, C++ et SQL. Ses principales missions Python en développement concernent soit de l&amp;rsquo;écriture de script backoffice, soit des missions d&amp;rsquo;audit en vue de refactoring et/ou d&amp;rsquo;optimisation de code.</description>
+    </item>
+    
+  </channel>
+</rss>

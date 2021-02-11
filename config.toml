@@ -1,0 +1,45 @@
+baseURL = "http://ohcecours.fr/"
+languageCode = "fr"
+title = "Oh Ce Cours"
+
+theme = "oh_ce_cours"
+RemovePathAccents = true
+
+[taxonomies]
+domaine = "domaines"
+
+[permalinks]
+domaines = "/formations/:slug/"
+
+[menu]
+[[menu.main]]
+identifier = "Académie"
+name = "Les programmes de l'Académie"
+title = "Académies"
+url = "/academies/"
+weight = 1
+[[menu.main]]
+identifier = "Formation"
+name = "Notre offre de formation professionelle continue"
+title = "Formations"
+url = "/formations/"
+weight = 2
+[[menu.main]]
+identifier = "Experts"
+name = "Nos experts"
+title = "Experts"
+url = "/experts/"
+weight = 3
+# [[menu.main]]
+# identifier = "Blog"
+# name = "Notre blog"
+# title = "Blog"
+# url = "/blog/"
+# weight = 4
+
+[Params]
+calendly = "https://calendly.com/ohcecours"
+type_form_formations_url = "https://form.typeform.com/to/h4GaVeZe?typeform-medium=embed-snippet"
+type_form_academie_contact_url = "https://form.typeform.com/to/bkbGpCO8?typeform-medium=embed-snippet"
+type_form_academie_inscription_url = "https://form.typeform.com/to/IiIShEhh?typeform-medium=embed-snippet"
+mailjet_data_token = "734ab382b493106f557988e0fc54640d"

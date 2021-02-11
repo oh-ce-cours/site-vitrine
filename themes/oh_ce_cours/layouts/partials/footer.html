@@ -1,0 +1,153 @@
+<!-- Footer
+		============================================= -->
+<footer id="footer" class="border-0 bg-white">
+    <div class="container">
+        <!-- Footer Widgets
+				============================================= -->
+        <div class="footer-widgets-wrap pb-5 clearfix">
+
+            <div class="row col-mb-50">
+                <div class="col-md-8">
+
+                    <div class="widget clearfix">
+
+                        <img src="/imgs/logo.svg" alt="Footer Logo" class="alignleft" style="margin-top: 8px; padding-right: 18px; border-right: 1px solid #DDD; width:
+                                    8em;">
+
+                        <p>Des formations <strong>pour des techs par des techs</strong>. Nous sommes convaincus
+                            que nous pouvons ramener de <strong>l'humain</strong> et de <strong> la
+                                proximité</strong> dans les organismes de
+                            formation.
+                        </p>
+
+                        <div class="line line-sm"></div>
+
+                        <div class="row">
+                            <div class="col-lg-3 col-6 bottommargin-sm widget_links">
+                                <ul>
+                                    <li><a href="/">Accueil</a></li>
+                                    {{ range .Site.Menus.main }}
+                                    <li><a href="{{ .URL }}">{{ .Title }}</a></li>
+                                    {{ end }}
+
+                                </ul>
+                            </div>
+
+                            <div class="col-lg-3 col-6 bottommargin-sm widget_links">
+                                <ul>
+                                    {{ range where $.Site.RegularPages "Section" "academies"}}
+                                    <li><a href="{{ .URL }}">{{ .Title }}</a></li>
+                                    {{ end }}
+                                </ul>
+                            </div>
+
+                            <div class="col-lg-3 col-6 bottommargin-sm widget_links">
+                                <ul>
+                                    {{ range where $.Site.Pages "Section" "domaines"}}
+                                    {{ if in .URL "formation" }}
+                                    <li><a href="{{ .URL }}">Formations {{ .Title }}</a></li>
+                                    {{ end }}
+                                    {{ end }}
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+                    <div class="widget clearfix">
+
+                        <div class="row clearfix">
+                            <div class="col-12 mt-4">
+                                <div class="feature-box fbox-plain fbox-sm align-items-center">
+                                    <div class="fbox-icon">
+                                        <i class="icon-mail text-dark"></i>
+                                    </div>
+                                    <div class="fbox-content">
+                                        <span class="text-muted">Nous contacter :</span><br>
+                                        <h3 class="nott ls0 font-weight-semibold">bonjour@ohcecours.fr</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="widget subscribe-widget clearfix">
+                        <h5><strong>Je m'inscris</strong> à la newsletter pour être au courant des ressources en
+                            avant premières et des actualités de <strong>Oh Ce Cours</strong>. Pas de spams,
+                            promis : </h5>
+                        <div class="widget-subscribe-form-result"></div>
+                        <a class="btn btn-success button button-color nott ls0 m-0" href="#"
+                            data-token="{{ .Site.Params.mailjet_data_token }}" onclick="mjOpenPopin(event, this)"
+                            type="submit">Je
+                            m'inscris</a>
+                    </div>
+
+                    {{/* <div class="widget">
+
+                        <div class="row col-mb-30">
+                            <div class="col-lg-6 col-md-12 col-6">
+                                <a href="https://facebook.com/semicolonweb" target="_blank"
+                                    class="social-icon si-dark si-colored si-twitter mb-0" style="margin-right: 10px;">
+                                    <i class="icon-twitter"></i>
+                                    <i class="icon-twitter"></i>
+                                </a>
+                                <a href="https://facebook.com/semicolonweb" target="_blank" class="text-dark"><small
+                                        style="display: block; margin-top: 3px;"><strong>Nous suivre
+                                        </strong><br>sur Twitter</small></a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-6">
+                                <a href="https://themeforest.net/user/SemiColonWeb/follow" target="_blank"
+                                    class="social-icon si-dark si-colored si-rss mb-0" style="margin-right: 10px;">
+                                    <i class="icon-rss"></i>
+                                    <i class="icon-rss"></i>
+                                </a>
+                                <a href="https://themeforest.net/user/SemiColonWeb/follow" target="_blank"
+                                    class="text-dark"><small
+                                        style="display: block; margin-top: 3px;"><strong>S'inscrire</strong><br>à
+                                        notre flux RSS</small></a>
+                            </div>
+                        </div> */}}
+
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- .footer-widgets-wrap end -->
+    </div>
+
+    <!-- Copyrights
+			============================================= -->
+    <div id="copyrights"
+        style="background: url('/imgs/footer.svg') no-repeat top center; background-size: cover; padding-top: 70px;">
+        <div class="container clearfix">
+
+            <div class="row justify-content-between col-mb-30">
+                <div class="col-12 col-lg-auto text-center text-lg-left">
+                    2021 -- Oh Ce Cours<br>
+                    {{/* <div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy
+                            Policy</a>
+                    </div> */}}
+                </div>
+
+                <div class="col-12 col-lg-auto text-center text-lg-right">
+                    {{/* <div class="copyrights-menu copyright-links clearfix">
+                        <a href="/">Acceuil</a>/<a href="#">A propos</a>/<a href="/experts">Les experts</a>/<a
+                            href="#">Clients</a>/<a href="#">FAQs</a>/<a href="#">Contact</a>
+                    </div> */}}
+                </div>
+            </div>
+
+        </div>
+    </div><!-- #copyrights end -->
+</footer><!-- #footer end -->
+
+</div><!-- #wrapper end -->
+
+<!-- Go To Top
+	============================================= -->
+<div id="gotoTop" class="icon-angle-up"></div>

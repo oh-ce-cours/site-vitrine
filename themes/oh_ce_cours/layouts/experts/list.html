@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+{{- partial "head.html" . -}}
+
+<body class="stretched">
+
+    <!-- Document Wrapper
+	============================================= -->
+    <div id="wrapper" class="clearfix">
+        {{- partial "header.html" . -}}
+
+        <div class="section bg-transparent">
+            <div class="container clearfix">
+
+                <div class="heading-block topmargin-sm center">
+                    <h3>Nos experts</h3>
+                    <p>
+                        Nous sélectionnons rigoureusement nos experts, pour leurs qualités professionnelle et
+                        pédagogique. Aucun n'est formateur à plein temps et tous possèdent leurs activité de conseil et
+                        prestation en parallèle pour rester au plus proche de leur métier.
+                    </p>
+                </div>
+
+                <div class="row justify-content-center">
+
+                    {{ range .Pages }}
+                    {{ partial "experts/card.html" (dict "show_more" true "content" .) }}
+                    {{ end }}
+
+                </div>
+
+            </div>
+        </div>
+        {{- partial "footer.html" . -}}
+        {{- partial "script.html" . -}}
+    </div>
+</body>
+
+</html>

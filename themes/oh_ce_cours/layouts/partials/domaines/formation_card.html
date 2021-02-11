@@ -1,0 +1,18 @@
+<div class="col-sm-6 col-lg-4">
+    <div class="feature-box fbox-center fbox-bg fbox-outline fbox-effect">
+        <div class="fbox-icon">
+            <a href="{{ .context.Permalink }}"> <i class="{{ .icon }} inline-block"></i>
+            </a>
+        </div>
+        <div class="fbox-content">
+            <h3>{{ .context.Title }}<span class="subtitle">{{ .context.Params.catchphrase }}</span>
+            </h3>
+
+            <a href="{{ .context.Permalink }}" style="margin-top: 1em;"
+                class="button button-rounded ml-3 d-none d-sm-block">Accéder
+                au
+                programme</a>
+
+        </div>
+    </div>
+</div>

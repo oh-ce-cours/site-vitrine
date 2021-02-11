@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+{{- partial "head.html" . -}}
+
+<body class="stretched" style="background-color: #f9f9f9;">
+
+    <!-- Document Wrapper
+	============================================= -->
+    <div id="wrapper" class="clearfix">
+        {{- partial "header.html" . -}}
+
+        <!-- Content
+		============================================= -->
+        <section id="content">
+
+            <!-- Features
+				============================================= -->
+            <div class="section  m-0" id="catch">
+                <div class="container clearfix">
+                    <div class="before-heading color-light"></div>
+
+                    <div class="heading-block center border-bottom-0 bottommargin-md">
+
+                        <h1>Ton temps est précieux</h1>
+
+                        <span style="max-width: 100%;">Ne le perds pas à chercher comment organiser ton
+                            apprentissage.</span>
+                        <span style="max-width: 100%;">Rejoins l'Académie.</span>
+                        <span style="max-width: 100%;">Ton toi du futur te remerciera.</span>
+                    </div>
+
+
+                    <div class="row justify-content-center bottommargin-md">
+                        <div class="col-4 col-xs-6 col-lg-2">
+                            <img src="/imgs/illustrations/time.svg" alt="Imac">
+                        </div>
+                    </div>
+
+                    <p>Tu en as marre de passer des heures à lire des tutoriels et articles de blogs sur Python sans
+                        savoir par où commencer ? <br>
+                        Tu connais déjà Python mais ne sais pas ce qui te reste à découvrir ni comment écrire du
+                        code pythonique ?<br>
+                        Tu te rends compte que <em>binge watcher</em> des cours pendant des heures sans faire les
+                        exercices ne même à rien
+                        ?
+                    </p>
+
+
+                    <div class="row justify-content-center col-mb-50">
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="heading-block fancy-title border-bottom-0 title-bottom-border">
+                                <h4>J'<span>apprends</span> quoi&nbsp;?</h4>
+                            </div>
+
+                            <p>L'Académie est dédiée au langage python. C'est un langage simple à appréhender tout
+                                en étant très expressif et puissant. Il est utilisé par tous, de la startup au grand
+                                compte, pour des projets en analyse de donnée, en web ou robotique, et bien plus
+                                encore.</p>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="heading-block fancy-title border-bottom-0 title-bottom-border">
+                                <h4>Je suis au bon <span>endroit</span>&nbsp;?</h4>
+                            </div>
+
+                            <p>L'Académie est dédiée aux experts métiers (ingénieurs, chercheurs,
+                                comptables, analystes) et aux développeurs qui veulent progresser par eux même, à
+                                leur rythme. Nous t'accompagnons que ce soit pour
+                                découvrir le langage python ou pour rendre ton code plus pythonique.</p>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="heading-block fancy-title border-bottom-0 title-bottom-border">
+                                <h4>Je découvre le <span>concept</span>&nbsp;!</h4>
+                            </div>
+
+                            <p>L'Académie c'est un exercice envoyé par mail chaque semaine pour
+                                <span>découvrir</span> ou progresser en
+                                développement. Il est conçu pour illustrer plusieurs niveaux de détails et
+                                t'aider à construire progressivement ta boite à outils de concepts. Évidemment, une
+                                correction est proposée à la fin de chaque exercice.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="section bg-transparent m-0" id="concept">
+
+                <div class="container clearfix">
+                    <div class="row align-items-center gutter-40 col-mb-50">
+                        <div class="col-md-5 hover05">
+                            <img data-animate="fadeInLeftBig" src="/imgs/illustrations/alien.svg" alt="Imac"
+                                class="fadeInLeftBig animated">
+                        </div>
+                        <div class="col-md-7">
+                            <div class="heading-block">
+                                <h2>Ce n'est pas ton cours de python classique.</h2>
+                                <span>Car il n'y a pas de cours !</span>
+                            </div>
+
+                            <p>Après avoir animé plus d'une centaine de formations professionnelle, en présentiel et à
+                                distance, nous avons réalisés que nous pouvons changer d'approche. Nous te proposons
+                                l'Académie, un format plus long, qui va te laisser le temps de t'infuser des concepts
+                                que nous aborderons.</p>
+
+                            <p>Nous avons compris que pour progresser dans un langage de programmation, sans surprise,
+                                il faut pratiquer. Comme pour une langue humaine où rien n'est mieux pour apprendre
+                                qu'un séjour à l'étranger, nous te proposons une immersion au langage Python.</p>
+
+                            <p>Pendant 12 semaines, tu recevras des exercices qui te permettrons de dépasser les limites
+                                de tes connaissances et de découvrir de nouvelles pratiques.</p>
+
+                            <p>Évidemment, nous ne te laissons pas seul. Tu pourras compter sur nos indications, la
+                                communauté de l'Académie et des sessions d'accompagnement si besoin !</p>
+
+                            <a href="#programmes"
+                                class="button button-border button-rounded button-large ml-0 topmargin-sm">Découvre nos
+                                offres</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section  m-0" id="contenu" style="background-color: #bfd5dbab">
+                {{ partial "academies/contents.html" . }}
+            </div>
+
+            <div class="section bg-transparent m-0" id="experts">
+                {{ partial "academies/experts.html" . }}
+            </div>
+
+            <div class="section m-0" style="background-color: #bfd5dbab" id="temoignages">
+                {{ partial "academies/testimonials.html" . }}
+            </div>
+
+            <div class="section  m-0" id="programmes">
+                <div class="container clearfix">
+                    <!-- Features colomns
+                    ============================================= -->
+
+                    <div class="heading-block center">
+                        <h2>Le programme de l'Académie</h2>
+                        <span>Nous proposons différents programme, choisi le profil qui te corresponds le mieux.
+                            <br>N'hésite pas à cliquer pour en savoir plus.</span>
+                    </div>
+
+
+                    <div class="row clearfix">
+                        {{ range where $.Site.RegularPages "Section" "academies"}}
+
+                        {{ partial "academies/card.html" . }}
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        {{- partial "footer.html" . -}}
+        {{- partial "script.html" . -}}
+    </div><!-- #wrapper end -->
+</body>
+
+</html>

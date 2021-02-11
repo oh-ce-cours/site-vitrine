@@ -1,0 +1,5 @@
+{{ if eq .Params.coming_soon true }}
+{{ partial "academies/card_soon.html" . }}
+{{ else }}
+{{ partial "academies/card_published.html" . }}
+{{ end }}

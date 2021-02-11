@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+{{- partial "head.html" . -}}
+
+<body class="stretched">
+
+    <!-- Document Wrapper
+	============================================= -->
+    <div id="wrapper" class="clearfix">
+        {{- partial "header.html" . -}}
+
+        <div class="section bg-transparent">
+            <div class="container clearfix">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="row justify-content-center">
+                            {{ partial "experts/card.html" (dict "show_more" false "content" .) }}
+                        </div>
+                    </div>
+
+                    <div class="col-8">
+                        {{ .Content }}
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="section center mt-0 clearfix" style="padding: 70px 0; background-color: #F2F4F7">
+
+            <div class="heading-block topmargin-sm center">
+                <h3>Domaines de compétences</h3>
+            </div>
+
+
+            <div class="container clearfix">
+                <div class="row col-mb-50">
+                    {{ range .Params.competences }}
+                    <div class="col-md-3">
+                        <div class="counter color">#{{ . }}</div>
+                    </div>
+                    {{ end }}
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="section bg-transparent">
+
+            <div class="heading-block topmargin-sm center">
+                <h3>Formations animées</h3>
+                {{ .Params.prenom }} anime les formations suivantes
+            </div>
+
+            {{ $formations_animees_id := .Params.formations }}
+            {{ $formations := slice }}
+            {{ $formations_dict := (dict )}}
+            {{ $toutes_formations := where $.Site.Pages "Section" "formations"}}
+
+            {{ range $toutes_formations }}
+            {{/* on veut grouper les formations par domaine, mais on ne peut pas utiliser groupByParam... */}}
+            {{ if in $formations_animees_id .Params.identifier }}
+            {{ $domaine := .Params.domaines }}
+            {{ $formations_domaine := (index $formations_dict $domaine) | append . }}
+            {{ $formations_dict = merge $formations_dict (dict $domaine $formations_domaine)}}
+            {{ end }}
+            {{ end }}
+
+            {{ range $domaine, $formations := $formations_dict }}
+            <div class="container clearfix">
+                <div class="fancy-title title-border">
+                    <h3 style="text-transform: capitalize;">{{ $domaine }}</h3>
+                </div>
+
+                <div class="row col-mb-50 mb-0 justify-content-center">
+                    {{ range $formation := $formations }}
+                    {{ partial "domaines/formation_card.html" (dict "context" $formation "icon" "icon-code") }}
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+
+        </div>
+
+    </div>
+    {{- partial "footer.html" . -}}
+    {{- partial "script.html" . -}}
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+{{ $formations := .Site.GetPage "/formations"}}
+{{ $groups := $formations.Pages.GroupByParam "domaines" }}
+
+
+{{range $groups }}
+<div class="widget widget_links clearfix">
+    <h4>Nos Formations en
+        <a href="/formations/{{ .Key |urlize }}">
+            <span style="text-transform: uppercase;">{{ .Key}}</span>
+        </a>
+    </h4>
+    <ul>
+        {{ range .Pages}}
+        <li>
+            <a href="{{ .Permalink }}">
+                <div>{{ .Title }}</div>
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+    {{ end }}
+</div>

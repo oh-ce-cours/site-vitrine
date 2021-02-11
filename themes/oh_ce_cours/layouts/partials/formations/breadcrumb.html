@@ -1,0 +1,15 @@
+{{ $cleaned_domaines := replace .Params.domaines "é" "e" }}
+{{ $subsection_url := printf "%s/%s" "/formations" $cleaned_domaines }}
+
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a href="{{ .CurrentSection.RelPermalink }}">Formations</a>
+    </li>
+    {{ with .Params.domaines }}
+    <!-- pour ne pas afficher quelque chose de vide quand on est sur une page de listing de domaines -->
+    <li class=" breadcrumb-item" style="text-transform: capitalize;">
+        <a href="{{ $subsection_url }}">{{ . }}</a>
+    </li>
+    {{ end }}
+    <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+</ol>

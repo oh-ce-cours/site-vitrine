@@ -1,0 +1,42 @@
+<div class="col-lg-3 col-md-6 bottommargin">
+
+    <div class="team">
+        <div class="team-image">
+            <img src="{{ .content.Params.image }}" alt="{{ .content.Title }}">
+            {{ if .show_more }}
+            <div class="bg-overlay">
+                <div class="bg-overlay-content dark animated fadeOut" data-hover-animate="fadeIn"
+                    style="animation-duration: 200ms;">
+                    <a href="{{ .content.URL }}" class="overlay-trigger-icon bg-light text-dark animated fadeOutUpSmall"
+                        data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall"
+                        data-hover-speed="350" data-hover-delay="250" style="animation-duration: 250ms;"><i
+                            class="icon-line-plus"></i></a>
+                </div>
+                <div class="bg-overlay-bg dark animated fadeOut" data-hover-animate="fadeIn"
+                    style="animation-duration: 600ms;"></div>
+            </div>
+            {{ end }}
+        </div>
+        <div class="team-desc team-desc-bg">
+            <div class="team-title mb-2">
+                <h4 class="mb-0">{{ .content.Title }}</h4><span class="mt-0">{{ .content.Params.role }}</span>
+            </div>
+
+            <div>
+                {{ .content.Params.short_bio_corporate }}
+            </div>
+
+            {{ if .show_more }}
+            <a href="{{ .content.URL }}" class="button button-border button-rounded button-fill button-aqua mb-3"
+                style="width: 80%;"><span>En savoir plus</span></i></a>
+            {{ end }}
+            <div>
+                {{ range .content.Params.contact}}
+                {{ partial "experts/contact_infos.html" . }}
+                {{ end }}
+            </div>
+        </div>
+
+
+    </div>
+</div>

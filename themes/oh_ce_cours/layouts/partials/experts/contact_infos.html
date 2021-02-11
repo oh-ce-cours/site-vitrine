@@ -1,0 +1,23 @@
+{{ $kind := ""}}
+{{ $color := ""}}
+{{ $prepend_value := "" }}
+{{ if eq .kind "email" }}
+{{ $kind = "email3"}}
+{{ $color = "email3"}}
+
+{{ $prepend_value = "mailto:" }}
+{{ else if eq .kind "linkedin" }}
+{{ $kind = "linkedin"}}
+{{ $color = "linkedin"}}
+{{ else if eq .kind "malt" }}
+{{ $kind = "checkbox-checked"}}
+{{ $color = "smashmag"}}
+{{ end }}
+
+<!-- call -->
+
+<a href="{{ $prepend_value }}{{ .value }}"
+    class="social-icon inline-block si-small si-light si-rounded si-{{ $color }}">
+    <i class="icon-{{ $kind }}"></i>
+    <i class="icon-{{ $kind }}"></i>
+</a>

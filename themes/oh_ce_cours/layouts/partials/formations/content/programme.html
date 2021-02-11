@@ -1,0 +1,18 @@
+<h2 style="margin-bottom:0em">
+    Programme
+</h2>
+
+
+<div class="col-md-12 occ-programm">
+    {{ range .Params.programme }}
+    <h3>{{ .title }}</h3>
+    <div>
+        <ul class="check-list">
+            {{ range .elements }}
+            <li>{{ . }}</li>
+            {{ end }}
+        </ul>
+        {{ .free_text }}
+    </div>
+    {{ end }}
+</div>

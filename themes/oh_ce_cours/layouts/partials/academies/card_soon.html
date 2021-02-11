@@ -1,0 +1,15 @@
+<div class="col-lg-4 col-md-6 bottommargin-sm ">
+    <div class="feature-box media-box fbox-bg ">
+        <div class="ribbon ribbon-top-right"><span>Bientôt</span></div>
+
+        <div class="fbox-media dimmed">
+            <a><img src="{{ .Params.image }}" alt="{{ .Params.field }} en train de travailler"></a>
+        </div>
+        <div class="fbox-content border-0">
+            <h3 class="nott ls0 font-weight-semibold dimmed">Pour {{ .Params.field }} <span
+                    class="subtitle font-weight-light ls0">{{ .Content }}</span></h3>
+
+            {{ partial "elements/button_contact_academie.html" . }}
+        </div>
+    </div>
+</div>

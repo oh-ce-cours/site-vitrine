@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+{{- partial "head.html" . -}}
+
+
+<body class="stretched">
+
+    <!-- Document Wrapper
+	============================================= -->
+    <div id="wrapper" class="clearfix">
+        {{- partial "header.html" . -}}
+
+
+
+        <section id="content">
+            <!-- catchphrase -->
+            <div class="section bg-transparent">
+                <div class="container">
+                    {{- partial "formations/breadcrumb.html" . -}}
+                    <div class="row justify-colomn-center mb-5">
+                        <div class="col-12">
+                            <h1>
+                                Les formations en {{ .Title }}
+                            </h1>
+                            <p>
+                                {{ .Content }}
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            {{ $formations := where $.Site.Pages "Section" "formations"}}
+            {{ range $subsection := .Params.subsections }}
+            {{ $formations_in_subsection := where $formations "Params.subdomain" .name }}
+
+            <div class="section bg-transparent">
+                <div class="container">
+                    <div class="fancy-title title-border">
+                        <h2>{{ .name }}</h2>
+                    </div>
+
+                    <div>
+                        <p>
+                            {{ .catchphrase | markdownify }}
+                        </p>
+                    </div>
+
+                    <div class="row justify-content-center col-mb-50 mb-0">
+                        {{ range $formations_in_subsection }}
+                        {{- partial "domaines/formation_card.html" (dict "context" . "icon" $subsection.icon ) -}}
+
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+
+
+
+
+
+        </section>
+
+        {{- partial "footer.html" . -}}
+        {{- partial "script.html" . -}}
+    </div>
+</body>
+
+</html>
