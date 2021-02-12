@@ -1,0 +1,34 @@
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<link href="/css/fonts/poppins/font.css" rel="stylesheet" type="text/css" />
+
+{{ $styles := resources.Get "css/bootstrap.css" | postCSS | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+
+{{ $styles := resources.Get "css/style.css" | postCSS | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+
+<link href="/css/font-icons.css" rel="stylesheet">
+
+{{ $styles := resources.Get "css/animate.css" | postCSS | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+
+
+{{/* {{ $styles := resources.Get "css/magnific-popup.css" | postCSS | resources.Fingerprint }} */}}
+<link rel="stylesheet" href="/css/magnific-popup.css">
+
+<!-- Bootstrap Switch CSS -->
+{{/* {{ $styles := resources.Get "css/components/bs-switches.css" | postCSS | resources.Fingerprint }} */}}
+<link rel="stylesheet" href="/css/components/bs-switches.css">
+
+
+{{/* {{ $styles := resources.Get "css/custom.css" | postCSS | resources.Fingerprint }} */}}
+<link rel="stylesheet" href="/css/custom.css">
+
+{{/* {{ $styles := resources.Get "css/fonts.css" | postCSS | resources.Fingerprint }} */}}
+<link rel="stylesheet" href="/css/fonts.css">
+
+{{/* {{ $styles := resources.Get "css/theme_specific.css" | postCSS | resources.Fingerprint }} */}}
+<link rel="stylesheet" href="/css/theme_specific.css">
+
+{{/* {{ $styles := resources.Get "css/custom.css" | postCSS | resources.Fingerprint }} */}}
+<link rel="stylesheet" href="/css/custom.css">

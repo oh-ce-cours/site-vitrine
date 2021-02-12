@@ -2,22 +2,21 @@
 {{ $color := ""}}
 {{ $prepend_value := "" }}
 {{ if eq .kind "email" }}
-{{ $kind = "email3"}}
-{{ $color = "email3"}}
+{{ $kind = "icon-email3"}}
+{{ $color = "si-email3"}}
 
 {{ $prepend_value = "mailto:" }}
 {{ else if eq .kind "linkedin" }}
-{{ $kind = "linkedin"}}
-{{ $color = "linkedin"}}
+{{ $kind = "icon-linkedin"}}
+{{ $color = "si-linkedin"}}
 {{ else if eq .kind "malt" }}
-{{ $kind = "checkbox-checked"}}
-{{ $color = "smashmag"}}
+{{ $kind = "icon-checkbox-checked"}}
+{{ $color = "si-smashmag"}}
 {{ end }}
 
 <!-- call -->
 
-<a href="{{ $prepend_value }}{{ .value }}"
-    class="social-icon inline-block si-small si-light si-rounded si-{{ $color }}">
-    <i class="icon-{{ $kind }}"></i>
-    <i class="icon-{{ $kind }}"></i>
+<a href="{{ $prepend_value }}{{ .value }}" class="social-icon inline-block si-small si-light si-rounded {{ $color }}">
+    <i class="{{ $kind }}"></i>
+    <i class="{{ $kind }}"></i>
 </a>

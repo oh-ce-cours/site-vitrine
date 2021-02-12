@@ -1,0 +1,27 @@
+<meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!-- Primary Meta Tags -->
+{{ $title := print .Site.Title " | " .Title }}
+{{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+<title>{{ $title }}</title>
+
+<meta name="title" content="{{ $title }}">
+<meta name="description" content="{{ .Site.Params.meta_default_description }}">
+
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ .Site.Params.meta_default_description }}">
+<meta property="og:image" content="{{ .Site.Params.meta_default_image }}">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="{{ .Permalink }}">
+<meta property="twitter:title" content="{{ $title }}">
+<meta property="twitter:description" content="{{ .Site.Params.meta_default_description }}">
+<meta property="twitter:image" content="{{ .Site.Params.meta_default_image }}">

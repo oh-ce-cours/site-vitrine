@@ -1,4 +1,4 @@
-baseURL = "http://ohcecours.fr/"
+baseURL = "https://ohcecours.fr/"
 languageCode = "fr"
 title = "Oh Ce Cours"
 
@@ -43,3 +43,6 @@ type_form_formations_url = "https://form.typeform.com/to/h4GaVeZe?typeform-mediu
 type_form_academie_contact_url = "https://form.typeform.com/to/bkbGpCO8?typeform-medium=embed-snippet"
 type_form_academie_inscription_url = "https://form.typeform.com/to/IiIShEhh?typeform-medium=embed-snippet"
 mailjet_data_token = "734ab382b493106f557988e0fc54640d"
+
+meta_default_description = "Découvrez ou progressez en développement sans prise de tête"
+meta_default_image = "/imgs/logo_meta_image.png"
