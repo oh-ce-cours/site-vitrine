@@ -1,0 +1,44 @@
+/**
+* bootstrap-switch - Turn checkboxes and radio buttons into toggle switches.
+*
+* @version v3.4 for Bootstrap 4.x
+* @homepage https://bttstrp.github.io/bootstrap-switch
+* @author Mattia Larentis <mattia@larentis.eu> (http://larentis.eu)
+* & djibe
+* @license Apache-2.0
+*/
+.bootstrap-switch {
+	display: inline-block;
+	direction: ltr;
+	cursor: pointer;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	position: relative;
+	text-align: left;
+	overflow: hidden;
+	line-height: 8px;
+	z-index: 0;
+	-webkit-user-select: none;
+		 -moz-user-select: none;
+			-ms-user-select: none;
+					user-select: none;
+	vertical-align: middle;
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+}
+.bootstrap-switch span::before {
+	content: "\200b";
+}
+.bootstrap-switch input[type='radio'],
+.bootstrap-switch input[type='checkbox'] {
+	position: absolute !important;
+	top: 0;
+	left: 0;
+	margin: 0;
+	z-index: -1;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	visibility: hidden;
+}

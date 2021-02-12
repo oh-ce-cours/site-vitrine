@@ -1,1 +1,3 @@
 public/**
+out/**
+node_modules/**

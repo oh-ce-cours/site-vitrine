@@ -1,0 +1,35 @@
+/* ----------------------------------------------------------------
+	Fonts
+
+	Replace your Fonts as necessary
+-----------------------------------------------------------------*/
+
+
+body,
+small,
+.sub-menu-container .menu-item > .menu-link,
+.nav-tree ul ul a { font-family: 'Lato', sans-serif !important; }
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+#logo a,
+.menu-link,
+.top-search-form input,
+.fbox-content h3,
+.counter,
+label,
+.nav-tree li a,
+.font-primary { font-family: 'Poppins', sans-serif !important; }
+
+
+
+.entry blockquote p,
+.testi-content p,
+.team-title span,
+.before-heading { font-family: 'PT Serif', serif !important; }
+
