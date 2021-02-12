@@ -30,7 +30,7 @@ HUGO_VERSION = "0.75.1"
 HUGO_ENABLEGITINFO = "true"
 
 [build.processing]
-skip_processing = false
+skip_processing = true
 [build.processing.css]
 bundle = true
 minify = true
