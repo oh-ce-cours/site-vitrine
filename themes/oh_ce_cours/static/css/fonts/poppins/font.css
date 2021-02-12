@@ -1,0 +1,71 @@
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	src: /* from https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2 */
+	url('/css/fonts/poppins/Poppins_300.woff2') format('woff2'), /* from https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDz8Z1xlEw.woff */
+	url('/css/fonts/poppins/Poppins_300.woff') format('woff'), /* from https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDz8Z1xlEQ.eot */
+	url('/css/fonts/poppins/Poppins_300.eot?#iefix') format('embedded-opentype'), /* from https://fonts.gstatic.com/l/font?kit=pxiByp8kv8JHgFVrLDz8Z1xlEg&skey=4aabc5055a39e031&v=v15#Poppins */
+	url('/css/fonts/poppins/Poppins_300.svg#Poppins') format('svg'), /* from https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDz8Z1xlEA.ttf */
+	url('/css/fonts/poppins/Poppins_300.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	src: /* from https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJfecg.woff2 */
+	url('/css/fonts/poppins/Poppins_400.woff2') format('woff2'), /* from https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJfedA.woff */
+	url('/css/fonts/poppins/Poppins_400.woff') format('woff'), /* from https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJfedg.eot */
+	url('/css/fonts/poppins/Poppins_400.eot?#iefix') format('embedded-opentype'), /* from https://fonts.gstatic.com/l/font?kit=pxiEyp8kv8JHgFVrJJfedQ&skey=87759fb096548f6d&v=v15#Poppins */
+	url('/css/fonts/poppins/Poppins_400.svg#Poppins') format('svg'), /* from https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJfedw.ttf */
+	url('/css/fonts/poppins/Poppins_400.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	src: /* from https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2 */
+	url('/css/fonts/poppins/Poppins_500.woff2') format('woff2'), /* from https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLGT9Z1xlEw.woff */
+	url('/css/fonts/poppins/Poppins_500.woff') format('woff'), /* from https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLGT9Z1xlEQ.eot */
+	url('/css/fonts/poppins/Poppins_500.eot?#iefix') format('embedded-opentype'), /* from https://fonts.gstatic.com/l/font?kit=pxiByp8kv8JHgFVrLGT9Z1xlEg&skey=d4526a9b64c21b87&v=v15#Poppins */
+	url('/css/fonts/poppins/Poppins_500.svg#Poppins') format('svg'), /* from https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLGT9Z1xlEA.ttf */
+	url('/css/fonts/poppins/Poppins_500.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	src: /* from https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2 */
+	url('/css/fonts/poppins/Poppins_600.woff2') format('woff2'), /* from https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLEj6Z1xlEw.woff */
+	url('/css/fonts/poppins/Poppins_600.woff') format('woff'), /* from https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLEj6Z1xlEQ.eot */
+	url('/css/fonts/poppins/Poppins_600.eot?#iefix') format('embedded-opentype'), /* from https://fonts.gstatic.com/l/font?kit=pxiByp8kv8JHgFVrLEj6Z1xlEg&skey=ce7ef9d62ca89319&v=v15#Poppins */
+	url('/css/fonts/poppins/Poppins_600.svg#Poppins') format('svg'), /* from https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLEj6Z1xlEA.ttf */
+	url('/css/fonts/poppins/Poppins_600.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	src: /* from https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2 */
+	url('/css/fonts/poppins/Poppins_700.woff2') format('woff2'), /* from https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlEw.woff */
+	url('/css/fonts/poppins/Poppins_700.woff') format('woff'), /* from https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlEQ.eot */
+	url('/css/fonts/poppins/Poppins_700.eot?#iefix') format('embedded-opentype'), /* from https://fonts.gstatic.com/l/font?kit=pxiByp8kv8JHgFVrLCz7Z1xlEg&skey=cea76fe63715a67a&v=v15#Poppins */
+	url('/css/fonts/poppins/Poppins_700.svg#Poppins') format('svg'), /* from https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlEA.ttf */
+	url('/css/fonts/poppins/Poppins_700.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 900&display=swap;
+	src: /* from https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLBT5Z1xlFQ.woff2 */
+	url('/css/fonts/poppins/Poppins_900&display=swap.woff2') format('woff2'), /* from https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLBT5Z1xlEw.woff */
+	url('/css/fonts/poppins/Poppins_900&display=swap.woff') format('woff'), /* from https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLBT5Z1xlEQ.eot */
+	url('/css/fonts/poppins/Poppins_900&display=swap.eot?#iefix') format('embedded-opentype'), /* from https://fonts.gstatic.com/l/font?kit=pxiByp8kv8JHgFVrLBT5Z1xlEg&skey=6c361c40a830b323&v=v15#Poppins */
+	url('/css/fonts/poppins/Poppins_900&display=swap.svg#Poppins') format('svg'), /* from https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLBT5Z1xlEA.ttf */
+	url('/css/fonts/poppins/Poppins_900&display=swap.ttf') format('truetype');
+}

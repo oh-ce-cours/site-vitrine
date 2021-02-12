@@ -9,8 +9,7 @@
     {{/* TODO : mettre le favicon */}}
 
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900&display=swap" rel="stylesheet"
-        type="text/css" />
+    <link href="/css/fonts/poppins/font.css" rel="stylesheet" type="text/css" />
 
     {{ $styles := resources.Get "css/bootstrap.css" | postCSS | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
