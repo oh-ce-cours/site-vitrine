@@ -13,15 +13,15 @@
         type="text/css" />
 
     {{ $styles := resources.Get "css/bootstrap.css" | postCSS | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $styles.Permalink }}">
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
 
     {{ $styles := resources.Get "css/style.css" | postCSS | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $styles.Permalink }}">
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
 
     <link href="/css/font-icons.css" rel="stylesheet">
 
     {{ $styles := resources.Get "css/animate.css" | postCSS | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $styles.Permalink }}">
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
 
 
     {{/* {{ $styles := resources.Get "css/magnific-popup.css" | postCSS | resources.Fingerprint }} */}}
