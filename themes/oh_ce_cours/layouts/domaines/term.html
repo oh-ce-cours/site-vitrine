@@ -12,9 +12,9 @@
 
 
 
-        <section id="content">
+        <section id="content ">
             <!-- catchphrase -->
-            <div class="section bg-transparent">
+            <div class="section bg-transparent mt-0 mb-0 pb-0">
                 <div class="container">
                     {{- partial "formations/breadcrumb.html" . -}}
                     <div class="row justify-colomn-center mb-5">
@@ -22,9 +22,9 @@
                             <h1>
                                 Les formations en {{ .Title }}
                             </h1>
-                            <p>
+                            <div class="occ-markdown-content">
                                 {{ .Content }}
-                            </p>
+                            </div>
 
                         </div>
                     </div>
@@ -36,7 +36,7 @@
             {{ range $subsection := .Params.subsections }}
             {{ $formations_in_subsection := where $formations "Params.subdomain" .name }}
 
-            <div class="section bg-transparent">
+            <div class="section bg-transparent m-0 p-0">
                 <div class="container">
                     <div class="fancy-title title-border">
                         <h2>{{ .name }}</h2>

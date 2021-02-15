@@ -5,13 +5,15 @@
             </a>
         </div>
         <div class="fbox-content">
-            <h3>{{ .context.Title }}<span class="subtitle">{{ .context.Params.catchphrase }}</span>
+            <h3 class="occ-same-size">
+                <span class="occ-title-formation" style="display: inline-block;">{{ .context.Title }}</span>
+                <span class="subtitle">
+                    {{ .context.Params.catchphrase}}
+                </span>
             </h3>
 
             <a href="{{ .context.Permalink }}" style="margin-top: 1em;"
-                class="button button-rounded ml-3 d-none d-sm-block">Accéder
-                au
-                programme</a>
+                class="button button-rounded ml-3 d-sm-block">Programme</a>
 
         </div>
     </div>

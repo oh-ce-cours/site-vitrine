@@ -49,7 +49,7 @@
                         {{$section_is_domaines := eq $lower_page_section "domaines"}}
                         {{ $active = or $active (and $menu_is_formations $section_is_domaines) }}
 
-                        <li class="menu-item {{ if $active }} current {{ end }}">
+                        <li class="menu-item {{ if $active }} current {{ else}} underline-animate {{ end }}">
                             <a class="menu-link " href="{{ .URL }}">
                                 <div>{{ .Title }}</div>
                             </a>

@@ -140,6 +140,12 @@
     .fbox-content>.subtitle {
         min-height: 5em;
     }
+    .occ-same-size>.subtitle {
+        min-height: 8em;
+    }
+    .occ-title-formation {
+        min-height: 4em;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -148,6 +154,12 @@
     }
     .fbox-content>h3 {
         min-height: 3em;
+    }
+    .occ-same-size>.subtitle {
+        min-height: 5em;
+    }
+    .occ-title-formation {
+        min-height: 4em;
     }
 }
 
@@ -305,4 +317,62 @@ Ribbon end
 
 .si-checkbox-checked:hover, .si-colored.si-checkbox-checked {
     background-color: #E53B2C !important;
+}
+
+.menu-link>div {
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 4px;
+    position: relative;
+}
+
+.current>.menu-link>div {
+    padding: 4px;
+    border-bottom: 2px solid #1abc9c;
+}
+
+.underline-animate>.menu-link>div:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #1abc9c;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.underline-animate>.menu-link>div:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.occ-markdown-content {
+    padding-left: 1em;
+}
+
+.occ-markdown-content>p {
+    margin-bottom: 0.5em;
+}
+
+.occ-markdown-content>ul {
+    margin-left: 3rem;
+}
+
+.occ-markdown-content>ul>li {
+    position: relative;
+    padding-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.occ-program-subelements:first-child {
+    margin-top: 0.5em;
+}
+
+.occ-same-size {
+    display: inline-block;
 }

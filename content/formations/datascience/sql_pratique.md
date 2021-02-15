@@ -2,7 +2,7 @@
 title: SQL Pratique
 identifier: sqlpratique
 domaines: datascience
-subdomain: "SQL"
+subdomain: SQL
 url: "/formations/datascience/sql-pratique"
 
 catchphrase: "Enfin une formation SQL qui se concentre sur l’essentiel et qui vous permettra
@@ -26,43 +26,47 @@ publics:
 programme:
     - title: "Présentation générale"
       elements: 
-        - "Historique des Systèmes de Gestion de Bases de Données"
-        - "Inventaire des SGBDRs existants"
+        - title: "Historique des Systèmes de Gestion de Bases de Données"
+        - title: "Inventaire des SGBDRs existants"
     - title: Principes
       elements: 
-        - "La méthodologie Merise : MCD, MLD et MPD"
-        - "L’algèbre relationnelle"
-        - "Les caractéristiques du langage en SQL"
-    - title: "Apprentissage du langage de manipulation des données (CRUD : Create,Read, Update, Delete)"
+        - title: "La méthodologie Merise : MCD, MLD et MPD"
+        - title: "L’algèbre relationnelle"
+        - title: "Les caractéristiques du langage en SQL"
+    - title: "Découverte de SQL, le langage de manipulation des données (CRUD : Create, Read, Update, Delete)"
       elements:
-        - "La consultation des données"
-        - "La sélection des données"
-        - "La restriction de données"
-        - "Le tri des données"
-        - "Les jointures"
-        - "Les fonctions SQL"
-        - "Les regroupements"
-        - "Les fenêtrages"
-        - "Les opérations ensemblistes"
-        - "Les sous-requêtes"
-        - "Les autres opérations"
-        - "Les mises à jour"
-        - "Les suppressions"
-        - "Les insertions (ajouts)"
+        - title: "La consultation des données"
+          subelements: 
+            - "La sélection des données"
+            - "La restriction de données"
+            - "Le tri des données"
+            - "Les jointures"
+            - "Les fonctions SQL"
+            - "Les regroupements"
+            - "Les fenêtrages"
+            - "Les opérations ensemblistes"
+            - "Les sous-requêtes"
+        - title: "Les autres opérations"
+          subelements: 
+            - "Les mises à jour"
+            - "Les suppressions"
+            - "Les insertions (ajouts)"
     - title: "Introduction au langage de descriptions de données"
       elements:
-        - Les objets d’une base de données
-        - L’inventaire
-        - Les opérations sur les objets
-        - Sur la table, les colonnes
-        - Sur la vue
-        - Sur un index
+        - title: Les objets d’une base de données
+          subelements: 
+          - L’inventaire
+        - title: Les opérations sur les objets
+          subelements:
+            - Sur la table, les colonnes
+            - Sur la vue
+            - Sur un index
       free_text: "TP : adapter sa base de données à ses besoins"
     - title: "Présentation du langage d’administration des données"
       elements: 
-        - Les fonctions d’administration disponibles
-        - Les utilisateurs
-        - La gestion des droits
+        - title: Les fonctions d’administration disponibles
+        - title: Les utilisateurs
+        - title: La gestion des droits
       free_text: "TP : contrôler l’accès aux données de la base en créant des utilisateurs avec des droits différents"
       
 sessions:

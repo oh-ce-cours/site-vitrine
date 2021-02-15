@@ -5,8 +5,9 @@
                 <div class="card bg-transparent border-0 text-center">
                     <div class="card-body">
                         <i class="{{ .Params.icon }} h1"></i>
-                        <h3 class="card-title">Formations {{.Title}}</h3>
-                        <p class="card-text font-weight-normal">{{ .Params.catchphrase }}</p>
+                        <h3 class="card-title" style="color: white;">Formations {{.Title}}</h3>
+                        <p class="card-text font-weight-normal" style="color: white;">{{ .Params.catchphrase }}</p>
+                        <i class="icon-arrow-circle-right mt-2"></i>
                     </div>
                 </div>
             </div>
@@ -17,7 +18,7 @@
                     trouvera son compte.</p>
                 <a href="{{ .URL }}">
                     <button type="button" class="btn btn-outline-light mt-2">Voir
-                        nos formations</button>
+                        nos formations en {{.Title}}</button>
                 </a>
             </div>
         </div>

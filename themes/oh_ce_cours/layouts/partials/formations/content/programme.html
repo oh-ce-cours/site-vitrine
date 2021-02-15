@@ -9,7 +9,15 @@
     <div>
         <ul class="check-list">
             {{ range .elements }}
-            <li>{{ . }}</li>
+            <li style="margin-bottom: 1em;">{{ .title }}
+                {{ with .subelements }}
+                <ul class="occ-program-subelements">
+                    {{ range . }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+            </li>
             {{ end }}
         </ul>
         {{ .free_text }}
