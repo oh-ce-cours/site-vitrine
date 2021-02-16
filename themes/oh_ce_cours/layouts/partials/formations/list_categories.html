@@ -1,6 +1,6 @@
 {{ $domaines := where $.Site.Pages "Section" "domaines"}}
 <div class="container clearfix">
-    <div class="row">
+    <div class="row justify-content-center">
         {{ range $domaines }}
         {{ if eq .File.Ext "md" }}
         {{ partial "formations/category_card.html" . }}

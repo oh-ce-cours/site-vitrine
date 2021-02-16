@@ -6,6 +6,7 @@ image: /imgs/photos/devops.jpg
 icon: icon-cogs1
 weight: 2
 url: "/formations/devops"
+draft: true
 
 subsections:  # les sous sections que l'on aura pour ce domaine
     - name: Automatisation  # le nom et l'identifiant de la sous section

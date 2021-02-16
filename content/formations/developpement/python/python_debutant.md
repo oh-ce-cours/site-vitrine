@@ -7,6 +7,7 @@ url: "/formations/developpement/python-debutant"
 weight: 1
 
 catchphrase: "Découvrez la programmation en pratiquant avec Python"
+draft: true
 
 ---
  

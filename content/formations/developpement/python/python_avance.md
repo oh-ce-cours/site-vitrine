@@ -7,6 +7,7 @@ url: "/formations/developpement/python-avance"
 weight: 3
 
 catchphrase: "Découvrez les subtilités de votre langage préféré"
+draft: true
 
 ---
  
