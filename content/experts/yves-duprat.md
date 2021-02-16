@@ -11,7 +11,7 @@ contact:
 - kind: linkedin
   value: https://www.linkedin.com/in/yves-duprat-ab56b951
 - kind: malt
-  value: ''
+  value: https://www.malt.fr/profile/yvesduprat
 competences:
 - Python
 - SQL
