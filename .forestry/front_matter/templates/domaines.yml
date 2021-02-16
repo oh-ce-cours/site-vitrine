@@ -1,0 +1,38 @@
+---
+label: Domaines
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: section
+  label: section
+- type: text
+  name: catchphrase
+  label: catchphrase
+- type: file
+  name: image
+  label: image
+- type: text
+  name: icon
+  label: icon
+- type: number
+  name: weight
+  label: weight
+- type: text
+  name: url
+  label: url
+- type: field_group_list
+  name: subsections
+  label: subsections
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: textarea
+    name: catchphrase
+    label: catchphrase
+  - type: text
+    name: icon
+    label: icon
