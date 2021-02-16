@@ -1,0 +1,67 @@
+---
+label: Cours
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: identifier
+  label: identifier
+- type: text
+  name: domaines
+  label: domaines
+- type: text
+  name: subdomain
+  label: subdomain
+- type: text
+  name: url
+  label: url
+- type: textarea
+  name: catchphrase
+  label: catchphrase
+- type: text
+  name: duration
+  label: duration
+- type: text
+  name: equilibre
+  label: equilibre
+- type: text
+  name: pricing
+  label: pricing
+- type: list
+  name: objectifs
+  label: objectifs
+- type: list
+  name: prerequis
+  label: prerequis
+- type: list
+  name: publics
+  label: publics
+- type: field_group_list
+  name: programme
+  label: programme
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: elements
+    label: elements
+    fields:
+    - type: text
+      name: title
+      label: title
+- type: field_group_list
+  name: sessions
+  label: sessions
+  fields:
+  - type: text
+    name: city
+    label: city
+  - type: text
+    name: date
+    label: date
+  - type: file
+    name: image
+    label: image
