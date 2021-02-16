@@ -1,0 +1,38 @@
+---
+label: Experts
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: prenom
+  label: prenom
+- type: text
+  name: role
+  label: role
+- type: file
+  name: image
+  label: image
+- type: text
+  name: short_bio_academy
+  label: short_bio_academy
+- type: text
+  name: short_bio_corporate
+  label: short_bio_corporate
+- type: field_group_list
+  name: contact
+  label: contact
+  fields:
+  - type: text
+    name: kind
+    label: kind
+  - type: text
+    name: value
+    label: value
+- type: list
+  name: competences
+  label: competences
+- type: list
+  name: formations
+  label: formations
