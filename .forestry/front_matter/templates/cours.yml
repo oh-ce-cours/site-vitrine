@@ -65,3 +65,5 @@ fields:
   - type: file
     name: image
     label: image
+pages:
+- content/formations/developpement/python/python_objet.md
