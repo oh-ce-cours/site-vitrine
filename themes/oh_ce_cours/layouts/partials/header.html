@@ -38,9 +38,9 @@
                     <ul class="menu-container">
                         {{ $current := . }}
                         {{ range .Site.Menus.main }}
-                        {{ $lower_menu_title := (lower .Title)}}
-                        {{ $lower_page_title := (lower $current.Title)}}
-                        {{ $lower_page_section := (lower $current.Section) }}
+                        {{ $lower_menu_title := (lower .Title) | urlize}}
+                        {{ $lower_page_title := (lower $current.Title) | urlize}}
+                        {{ $lower_page_section := (lower $current.Section) | urlize}}
 
                         {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
                         {{ $active = or $active (eq $lower_menu_title $lower_page_section) }}
