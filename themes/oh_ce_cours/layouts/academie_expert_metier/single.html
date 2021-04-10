@@ -98,8 +98,9 @@
             </div>
 
 
+            <div class="section m-0 pt-0">
+                <h2 class="center ">Deviens Sauveteur</h2>
 
-            <div class="section m-0 pt-md-5 pt-0">
                 <div class="container clearfix">
                     <div class="row align-items-md-center mb-5">
                         <div class="col-md-6 pr-5">
@@ -109,27 +110,29 @@
                             </div>
                             <div class="row">
                                 <div class="col-6 col-sm-6 mb-4">
-                                    <div class="counter color font-weight-semibold">5+</div>
+                                    <div class="counter color font-weight-semibold">5</div>
                                     <h5 class="mt-0 font-weight-medium">Bibliothèques utilisées</h5>
                                 </div>
 
                                 <div class="col-6 col-sm-6 mb-4">
-                                    <div class="counter color font-weight-semibold">12+</div>
+                                    <div class="counter color font-weight-semibold">12</div>
                                     <h5 class="mt-0 font-weight-medium">Semaines</h5>
                                 </div>
 
                                 <div class="col-6 col-sm-6 mb-4">
-                                    <div class="counter color font-weight-semibold">4+</div>
+                                    <div class="counter color font-weight-semibold">12</div>
                                     <h5 class="mt-0 font-weight-medium">Projets</h5>
                                 </div>
 
                                 <div class="col-6 col-sm-6 mb-4">
-                                    <div class="counter color font-weight-semibold">60+</div>
+                                    <div class="counter color font-weight-semibold">60</div>
                                     <h5 class="mt-0 font-weight-medium">Heures de code</h5>
                                 </div>
                             </div>
-                            <p class="text-muted">Voilà ce que tu saura faire en finissant ce programme. Faire évoluer
-                                un code ne sera plus de la magie noire.</p>
+                            <p class="text-muted">Voilà un exemple de ce que tu saura faire en devenant
+                                <em>Sauveteur</em>.
+                                Faire évoluer un programme ne sera plus de la magie noire.
+                            </p>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="card shadow-sm border-light">
@@ -167,19 +170,25 @@
                     </div>
 
 
-                    <div class="col-12 mt-3">
-                        <div class="heading-block center">
-                            <h2>C'est toi le patron !</h2>
-                            <span>Pour que nous puissions t'apprendre à résoudre des problèmes qui t'intéressent
-                                réellement, nous te laissons proposer et voter pour les projets qui t'intéressent le
-                                plus. Nous adapterons notre programme en fonction des retours de la communauté.</span>
-                        </div>
+                </div>
+            </div>
 
+            <div class="section m-0" id="vote">
+                <div class="col-12 center">
+                    <div class="heading-block">
+                        <h2>C'est toi le patron !</h2>
+                        <span>Pour que nous puissions t'apprendre à résoudre des problèmes qui t'intéressent
+                            réellement, nous te laissons proposer et voter pour les projets qui t'intéressent le
+                            plus. Nous adapterons notre programme en fonction des retours de la communauté.</span>
+                    </div>
+
+                    <div style="width:90%; margin: auto">
                         <iframe height='600' src='{{ .Site.Params.tricider_academie_expert_metier }}' frameborder='0'
                             scrolling='no' marginheight='0' marginwidth='0'></iframe>
                     </div>
                 </div>
             </div>
+
 
 
             <div class="section  m-0" id="contenu" style="background-color: #bfd5dbab">
@@ -195,10 +204,9 @@
             </div>
 
             <div class="section bg-transparent" id="offres">
-                {{ partial "academies/pricing_mensuel.html" . }}
+                {{ partial "academies/pricing.html" . }}
             </div>
         </section>
-
 
 
     </div>
