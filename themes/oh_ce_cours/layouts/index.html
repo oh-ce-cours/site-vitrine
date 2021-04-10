@@ -8,13 +8,10 @@
                 <div class="row pt-5">
                     <div class="col-lg-5 col-md-8">
                         <div class="slider-title">
-                            <h2>Besoin d'aide&nbsp;? <br>Appelez Oh&nbsp;Ce&nbsp;Cours</h2>
-                            <h3 class="text-rotater mb-2" data-separator="," data-rotate="fadeIn" data-speed="3500">Nous
-                                formons les <span class="t-rotate">entreprises,développeurs,experts métiers</span> au
-                                développement.</h3>
+                            <h1>Besoin d'aide&nbsp;?</h1>
+                            <h2>Appelez Oh&nbsp;Ce&nbsp;Cours</h2>
                             <p>Notre équipe d'experts en technologie vous aide à mieux appréhender les
-                                techniques
-                                de développement.</p>
+                                techniques de développement.</p>
                         </div>
                     </div>
                 </div>
@@ -26,175 +23,22 @@
 
 <section id="content">
     <div class="content-wrap pt-0 ">
-        <!-- Client Carousel
-				============================================= -->
-        <div class="section bg-transparent m-0  border-bottom">
-            <div class="container">
-                <div id="oc-clients" class="owl-carousel image-carousel carousel-widget" data-margin="100"
-                    data-loop="true" data-autoplay="5000" data-nav="false" data-pagi="false" data-items-xs="2"
-                    data-items-sm="3" data-items-md="4" data-items-lg="5" data-items-xl="6">
-                    <div class="oc-item"><a href="#"><img src="imgs/clients/france_tv.jpg" alt="Brands"></a>
-                    </div>
-                    <div class="oc-item"><a href="#"><img src="imgs/clients/la_poste.jpg" alt="Brands"></a>
-                    </div>
-                    <div class="oc-item"><a href="#"><img src="imgs/clients/orange.jpg" alt="Brands"></a></div>
-                    <div class="oc-item"><a href="#"><img src="imgs/clients/sfr.jpg" alt="Brands"></a></div>
-                    <div class="oc-item"><a href="#"><img src="imgs/clients/sncf.jpg" alt="Brands"></a></div>
-                    <div class="oc-item"><a href="#"><img src="imgs/clients/tf1.jpg" alt="Brands"></a></div>
-                </div>
-            </div>
+        <div class="section bg-transparent m-0 pb-0">
+            {{- partial "elements/about_us.html" . -}}
         </div>
 
-        <!-- Features
-				============================================= -->
-        <div class="section  m-0 pb-0">
-            <div class="container">
-                <div class="heading-block border-bottom-0 center mx-auto mb-0" style="max-width: 800px">
-                    <h3 class="nott ls0 mb-3">Qui sommes-nous ?</h3>
-                    <p>Oh Ce Cours est un collectif d'experts en technologie (développeurs, devOps,
-                        datascientists, et bien d'autres). Nous pouvons vous aider à mieux maîtriser votre
-                        environnement technique. </p>
-
-                    <div class="center my-5">
-
-                        <img style="max-width: 550px" src="imgs/illustrations/team_meeting.svg" alt="iphone"
-                            class="rounded  parallax" data-bottom-top="transform: translateY(-30px)"
-                            data-top-bottom="transform: translateY(30px)">
-                    </div>
-
-                    <p>Nous travaillons avec les plus grands comptes en France et à l'international, comme avec
-                        des PME et startups.</p>
-                </div>
-            </div>
+        <div class="section m-0">
+            {{- partial "elements/offre.html" -}}
         </div>
 
-        <div class="section bg-transparent m-0" id="experts">
-            <div class="container clearfix">
-                <!-- Features colomns
-                        ============================================= -->
-
-                <div class="heading-block center">
-                    <h2>Les experts de Oh Ce Cours</h2>
-                    <span style="max-width: 80%;">A l'origine de cette idée se cachent 2 formateurs experts en
-                        Python et
-                        passionnés de pédagogie, <em>Matthieu</em> et <em>Yves</em>.
-                    </span>
-                </div>
-
-                <div class="row clearfix">
-
-                    <div class="col-sm-12 col-md-6">
-                        <div class="team">
-                            <div class="team-image imagescalein">
-                                <a><img style="width: 60%;margin: auto;" src="/imgs/experts/matthieu.jpg"
-                                        alt="John Doe"></a>
-                            </div>
-                            <div class="team-desc">
-                                <div class="team-title">
-                                    <h4 class="font-primary font-weight-normal ls2">Matthieu Falce</h4>
-                                    <span>Expert Python</span>
-                                </div>
-                                <p>Touche à tout en développement, ce qui m'intéresse le plus c'est de résoudre
-                                    des problèmes concrets. Je vous accompagner sur mes domaines de
-                                    prédilections en python : la data science, la <em>dataviz</em> et le
-                                    développement web.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6">
-                        <div class="team">
-                            <div class="team-image imagescalein">
-                                <a><img src="/imgs/experts/yves.jpg" alt="Yves Duprat"
-                                        style="width: 60%;margin: auto;"></a>
-                            </div>
-                            <div class="team-desc">
-                                <div class="team-title">
-                                    <h4 class="font-primary font-weight-normal ls2">Yves Duprat</h4>
-                                    <span>Développeur Expert</span>
-                                </div>
-                                <p>Yves est développeur Python freelance depuis 15 ans. Son activité
-                                    professionnelle Python se répartit à part égale, entre du développement et
-                                    de la transmission de savoir aussi bien en écoles d'ingénieur qu'en
-                                    formation auprès des entreprises. Il intervient aussi sur des sessions de
-                                    formation en C, C++ et SQL. <br />
-
-                                    Ses principales missions Python en développement concernent soit de
-                                    l'écriture de script backoffice, soit des missions d'audit en vue de
-                                    refactoring et/ou d'optimisation de code. <br />
-
-                                    Yves est aussi créateur et organisateur du meetup Python de Lille
-                                    (Lille.py).</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="section bg-transparent m-0 border-bottom">
+            {{- partial "elements/clients_formation.html" . -}}
         </div>
 
-        <!-- Works/Projects
-				============================================= -->
-        <div class="section m-0"
-            style="background: url('demos/seo/images/sections/4.png') no-repeat center top; background-size: cover; padding: 140px 0 0;">
-            <div class="container">
-                <div class="heading-block border-bottom-0 center">
-                    <h3 class="nott ls0">Notre offre</h3>
-                </div>
-
-                <div class="row bottommargin-lg align-items-stretch">
-
-                    <div class="col-lg-4 dark col-padding overflow-hidden" style="background-color: #34495e;">
-                        <div style="color:white">
-                            <h3 class="text-uppercase" style="font-weight: 600; color:white;">Académie</h3>
-                            <p class="same-height" style="line-height: 1.8;">Vous ne savez
-                                pas par où commencer votre apprentissage ou ne maîtrisez pas les bonnes
-                                pratiques ? Grâce à l'académie découvrez à votre rythme les fonctionnalités
-                                méconnues de vos langages préférés.</p>
-                            <a href="/academies"
-                                class="button button-border button-light button-rounded text-uppercase m-0">Notre
-                                académie</a>
-                            <i class="icon-cog bgicon"></i>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-4 dark col-padding overflow-hidden" style="background-color: #1abc9c;">
-                        <div style="color:white">
-                            <h3 class="text-uppercase" style="font-weight: 600; color:white;">Formations</h3>
-                            <p class="same-height" style="line-height: 1.8;">Nous pouvons former
-                                vos équipes en inter
-                                ou intra
-                                entreprise. Elle passeront un moment agréable, dans un cadre propice à
-                                l'apprentissage et l'expérimentation grâce à nos formateurs experts.</p>
-                            <a href="/formations"
-                                class="button button-border button-light button-rounded text-uppercase m-0">Nos
-                                formations</a>
-                            <i class="icon-bulb bgicon"></i>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-4 dark col-padding overflow-hidden" style="background-color: #e74c3c;">
-                        <div style="color:white">
-                            <h3 class="text-uppercase" style="font-weight: 600; color:white;">Expertise</h3>
-                            <p class="same-height" style="line-height: 1.8;">Notre équipe d'expert peut vous
-                                assister sur des projets ponctuels pour vous aider à régler des problématiques
-                                spécifiques.
-                                N'hésitez pas à nous contacter pour voir comment nos pompiers peuvent vous
-                                aider.</p>
-                            <a href="/experts"
-                                class="button button-border button-light button-rounded text-uppercase m-0">Notre
-                                expertise</a>
-                            <i class="icon-thumbs-up bgicon"></i>
-                        </div>
-                    </div>
-
-                    <div class="clear"></div>
-
-                </div>
-
-            </div>
+        <div class="section  m-0" id="experts">
+            {{- partial "elements/experts.html" -}}
         </div>
+
     </div>
 </section>
 {{ end }}
