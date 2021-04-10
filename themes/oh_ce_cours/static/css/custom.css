@@ -376,3 +376,11 @@ Ribbon end
 .occ-same-size {
     display: inline-block;
 }
+
+body {
+    font-size: 1.25rem!important;
+}
+
+.fbox-content h3 {
+    font-size: 1.25rem!important;
+}
