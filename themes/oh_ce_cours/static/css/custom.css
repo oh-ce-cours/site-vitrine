@@ -141,7 +141,7 @@
         min-height: 5em;
     }
     .occ-same-size>.subtitle {
-        min-height: 8em;
+        min-height: 25em;
     }
     .occ-title-formation {
         min-height: 4em;
@@ -156,7 +156,7 @@
         min-height: 3em;
     }
     .occ-same-size>.subtitle {
-        min-height: 5em;
+        min-height: 15em;
     }
     .occ-title-formation {
         min-height: 4em;

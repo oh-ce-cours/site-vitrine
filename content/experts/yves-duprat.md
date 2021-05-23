@@ -19,11 +19,11 @@ competences:
 - C++
 formations:
 - sqlpratique
-- pyavance
-- pyclean
-- pyobjet
-- pythonique
 - pydebutant
+- pyobjet
+- pyavance
+- pyidiomatique
+- pysharing
 
 ---
 Yves est développeur Python freelance depuis 15 ans. Son activité professionnelle Python se répartit à part égale, entre du développement et de la transmission de savoir aussi bien en écoles d'ingénieur qu'en formation auprès des entreprises. Il intervient aussi sur des sessions de formation en C, C++ et SQL.

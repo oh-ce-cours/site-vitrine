@@ -22,11 +22,12 @@ competences:
     - Devops 
 
 formations: 
-    - "pyavance"
-    - "pyclean"
-    - "pyobjet"
-    - "pythonique"
-
+    - pydebutant
+    - pyobjet
+    - pyavance
+    - pyidiomatique
+    - pycleancode
+    - pysharing
 ---
 
 Touche à tout en développement, Matthieu s'intéresse avant tout à résoudre des problèmes concrets. 
