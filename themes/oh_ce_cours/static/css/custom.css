@@ -330,7 +330,7 @@ Ribbon end
 
 .current>.menu-link>div {
     padding: 4px;
-    border-bottom: 2px solid #1abc9c;
+    border-bottom: 2px solid #20114c;
 }
 
 .underline-animate>.menu-link>div:after {
@@ -341,7 +341,7 @@ Ribbon end
     height: 2px;
     left: 50%;
     position: absolute;
-    background: #1abc9c;
+    background: #20114c;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
 }
@@ -383,4 +383,62 @@ body {
 
 .fbox-content h3 {
     font-size: 1.25rem!important;
+}
+
+/*
+
+Les couleurs de Oh! Ce Cours
+
+*/
+
+.occ-text-indigo {
+    color: #20114c!important;
+}
+
+.occ-text-jaune {
+    color: #fcc433!important;
+}
+
+.occ-text-bleu {
+    color: #1a7d9b!important;
+}
+
+.occ-text-vert {
+    color: #467337!important;
+}
+
+.occ-text-aubergine {
+    color: #412442!important;
+}
+
+.occ-background-indigo {
+    background-color: #20114c!important;
+}
+
+.occ-background-jaune {
+    background-color: #fcc433!important;
+}
+
+.occ-background-bleu {
+    background-color: #1a7d9b!important;
+}
+
+.occ-background-vert {
+    background-color: #467337!important;
+}
+
+.occ-background-aubergine {
+    background-color: #412442!important;
+}
+
+.occ-academies {
+    color: #1a7d9b!important;
+}
+
+.occ-formations {
+    color: #467337!important;
+}
+
+.occ-experts {
+    color: #412442!important;
 }

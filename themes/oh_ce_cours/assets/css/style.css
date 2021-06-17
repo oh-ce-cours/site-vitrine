@@ -22,19 +22,19 @@ dd, dl, dt, li, ol, ul {
 }
 
 ::selection {
-    background: #1abc9c;
+    background: #20114c;
     color: #fff;
     text-shadow: none
 }
 
 ::-moz-selection {
-    background: #1abc9c;
+    background: #20114c;
     color: #fff;
     text-shadow: none
 }
 
 ::-webkit-selection {
-    background: #1abc9c;
+    background: #20114c;
     color: #fff;
     text-shadow: none
 }
@@ -51,7 +51,7 @@ body {
 
 a {
     text-decoration: none!important;
-    color: #1abc9c
+    color: #20114c
 }
 
 a:hover {
@@ -73,7 +73,7 @@ iframe {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #444;
+    /*color: #444;*/
     font-weight: 600;
     line-height: 1.5;
     margin: 0 0 30px 0;
@@ -132,7 +132,7 @@ h5, h6 {
 }
 
 h1>span:not(.nocolor):not(.badge), h2>span:not(.nocolor):not(.badge), h3>span:not(.nocolor):not(.badge), h4>span:not(.nocolor):not(.badge), h5>span:not(.nocolor):not(.badge), h6>span:not(.nocolor):not(.badge) {
-    color: #1abc9c
+    color: #20114c
 }
 
 address, blockquote, dd, dl, fieldset, form, ol, p, pre, table, ul {
@@ -317,15 +317,15 @@ span.middot {
 }
 
 .bg-color, .bg-color #header-wrap {
-    background-color: #1abc9c!important
+    background-color: #20114c!important
 }
 
 .color {
-    color: #1abc9c!important
+    color: #20114c!important
 }
 
 .border-color {
-    border-color: #1abc9c!important
+    border-color: #20114c!important
 }
 
 .ls0 {
@@ -591,7 +591,7 @@ span.middot {
 }
 
 .h-text-color:hover, a.h-text-color:hover {
-    color: #1abc9c!important
+    color: #20114c!important
 }
 
 .h-text-primary:hover, a.h-text-primary:hover {
@@ -648,7 +648,7 @@ span.middot {
 }
 
 .h-bg-color:hover {
-    background-color: #1abc9c!important
+    background-color: #20114c!important
 }
 
 .h-bg-primary:hover {
@@ -2411,7 +2411,7 @@ html[xmlns] .slider-wrap {
     width: 140px;
     margin-top: 10px;
     border: 1px solid #eee;
-    border-top-color: #1abc9c;
+    border-top-color: #20114c;
     box-shadow: 0 13px 42px 11px rgba(0, 0, 0, .05);
     transition: opacity .25s ease, margin .2s ease
 }
@@ -2876,7 +2876,7 @@ html[xmlns] .slider-wrap {
 .header-extras li .he-text span {
     display: block;
     font-weight: 400;
-    color: #1abc9c
+    color: #20114c
 }
 
 .primary-menu {
@@ -3011,7 +3011,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 }
 
 .menu-item.current>.menu-link, .menu-item:hover>.menu-link {
-    color: #1abc9c
+    color: #20114c
 }
 
 .mega-menu-content, .sub-menu-container {
@@ -3240,7 +3240,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
         background-color: #fff;
         box-shadow: 0 13px 42px 11px rgba(0, 0, 0, .05);
         border: 1px solid #eee;
-        border-top: 2px solid #1abc9c;
+        border-top: 2px solid #20114c;
         z-index: 399;
         top: 100%;
         left: 0;
@@ -3306,7 +3306,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
     .sub-menu-container .menu-item:hover>.menu-link {
         background-color: #f9f9f9;
         padding-left: 18px;
-        color: #1abc9c
+        color: #20114c
     }
     .menu-link div>i.icon-angle-down {
         top: 0;
@@ -3416,7 +3416,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
         background-color: transparent
     }
     .mega-menu-style-2 .mega-menu-title>.menu-link:hover {
-        color: #1abc9c
+        color: #20114c
     }
     .mega-menu-style-2 .sub-menu-container:not(.mega-menu-dropdown) .menu-item {
         border: 0
@@ -3459,7 +3459,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
     .style-3 .menu-container>.menu-item.current>.menu-link {
         color: #fff;
         text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
-        background-color: #1abc9c
+        background-color: #20114c
     }
     .style-4 .menu-container>.menu-item>.menu-link {
         margin: 28px 0;
@@ -3469,7 +3469,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
         border: 1px solid transparent
     }
     .style-4 .menu-container>.menu-item.current>.menu-link, .style-4 .menu-container>.menu-item:hover>.menu-link {
-        border-color: #1abc9c
+        border-color: #20114c
     }
     .style-5 .menu-container {
         padding-right: 10px;
@@ -3502,7 +3502,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
         left: 50%;
         height: 2px;
         width: 0;
-        border-top: 2px solid #1abc9c;
+        border-top: 2px solid #20114c;
         -webkit-transition: width .3s ease;
         -o-transition: width .3s ease;
         transition: width .3s ease;
@@ -3555,7 +3555,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
         z-index: -1;
         width: 100%;
         height: 100%;
-        background-color: #1abc9c;
+        background-color: #20114c;
         border-top: 5px solid rgba(0, 0, 0, .1)
     }
     .side-header:not(.open-header) #wrapper {
@@ -4125,7 +4125,7 @@ body:not(.top-search-open) .top-search-parent #logo, body:not(.top-search-open) 
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #1abc9c;
+    background-color: #20114c;
     opacity: .8;
     z-index: -1
 }
@@ -4207,7 +4207,7 @@ body:not(.top-search-open) .top-search-parent #logo, body:not(.top-search-open) 
 }
 
 .top-cart-item-image:hover {
-    border-color: #1abc9c
+    border-color: #20114c
 }
 
 .top-cart-item-desc, .top-cart-item-desc-title {
@@ -4238,7 +4238,7 @@ body:not(.top-search-open) .top-search-parent #logo, body:not(.top-search-open) 
 }
 
 .top-cart-item-desc a:hover {
-    color: #1abc9c
+    color: #20114c
 }
 
 .top-cart-item-price {
@@ -4261,7 +4261,7 @@ body:not(.top-search-open) .top-search-parent #logo, body:not(.top-search-open) 
 
 .top-cart-action .top-checkout-price {
     font-size: 1.25rem;
-    color: #1abc9c
+    color: #20114c
 }
 
 @media (min-width:992px) {
@@ -4273,7 +4273,7 @@ body:not(.top-search-open) .top-search-parent #logo, body:not(.top-search-open) 
         position: absolute;
         width: 280px;
         border: 1px solid #eee;
-        border-top: 2px solid #1abc9c;
+        border-top: 2px solid #20114c;
         top: calc(100% + 20px);
         right: -15px;
         margin: -10000px 0 0;
@@ -4303,7 +4303,7 @@ body:not(.top-search-open) .top-search-parent #logo, body:not(.top-search-open) 
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #1abc9c;
+    background-color: #20114c;
     transform: translateZ(0);
     -webkit-backface-visibility: hidden
 }
@@ -4359,7 +4359,7 @@ body:not(.top-search-open) .top-search-parent #logo, body:not(.top-search-open) 
     left: auto;
     right: 0;
     height: auto;
-    background-color: #1abc9c
+    background-color: #20114c
 }
 
 #page-menu.page-menu-open .page-menu-nav {
@@ -4468,7 +4468,7 @@ body:not(.top-search-open) .top-search-parent #logo, body:not(.top-search-open) 
         top: 100%;
         left: 0;
         padding: 0;
-        background-color: #1abc9c
+        background-color: #20114c
     }
     .page-menu-sub-menu .page-menu-item>a {
         height: auto;
@@ -4534,7 +4534,7 @@ body:not(.top-search-open) .top-search-parent #logo, body:not(.top-search-open) 
         background-color: rgba(0, 0, 0, .7)
     }
     .dots-menu .page-menu-item.current>a {
-        background-color: #1abc9c
+        background-color: #20114c
     }
     .dots-menu.dots-menu-border .page-menu-item {
         width: 12px;
@@ -4548,14 +4548,14 @@ body:not(.top-search-open) .top-search-parent #logo, body:not(.top-search-open) 
         border-color: rgba(0, 0, 0, .7)
     }
     .dots-menu.dots-menu-border .page-menu-item.current>a {
-        border-color: #1abc9c
+        border-color: #20114c
     }
     .dots-menu .page-menu-item div {
         position: absolute;
         width: auto;
         top: 50%;
         right: 25px;
-        background-color: #1abc9c;
+        background-color: #20114c;
         font-size: .75rem;
         text-transform: uppercase;
         letter-spacing: 1px;
@@ -4583,7 +4583,7 @@ body:not(.top-search-open) .top-search-parent #logo, body:not(.top-search-open) 
         height: 0;
         border-top: 7px solid transparent;
         border-bottom: 7px solid transparent;
-        border-left: 6px solid #1abc9c;
+        border-left: 6px solid #20114c;
         transform: translateY(-50%)
     }
     .dots-menu .page-menu-item>a:hover div {
@@ -5322,7 +5322,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 }
 
 .control-solid .flex-control-nav li a.flex-active, .control-solid .flex-control-nav li:hover a {
-    background-color: #1abc9c
+    background-color: #20114c
 }
 
 .control-square .flex-control-nav li a {
@@ -5452,7 +5452,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
     display: block;
     margin-top: 10px;
     font-weight: 300;
-    color: #777;
+    /*color: #777;*/
     font-size: 18px
 }
 
@@ -5478,7 +5478,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 }
 
 .breadcrumb a:hover {
-    color: #1abc9c
+    color: #20114c
 }
 
 .breadcrumb i {
@@ -5722,12 +5722,12 @@ body:not(.device-touch) .grid-container {
 }
 
 .grid-filter li a:hover {
-    color: #1abc9c
+    color: #20114c
 }
 
 .grid-filter li.activeFilter a {
     color: #fff;
-    background-color: #1abc9c;
+    background-color: #20114c;
     margin: 0;
     font-weight: 700
 }
@@ -5803,8 +5803,8 @@ body:not(.device-touch) .grid-container {
 }
 
 .grid-filter.style-3 li.activeFilter a {
-    color: #1abc9c!important;
-    border-color: #1abc9c;
+    color: #20114c!important;
+    border-color: #20114c;
     background-color: transparent;
     margin: 0
 }
@@ -5842,7 +5842,7 @@ body:not(.device-touch) .grid-container {
 .grid-filter.style-4 li.activeFilter a::after {
     width: 100%;
     left: 0;
-    background-color: #1abc9c
+    background-color: #20114c
 }
 
 .grid-shuffle {
@@ -5860,7 +5860,7 @@ body:not(.device-touch) .grid-container {
 }
 
 .grid-shuffle:hover {
-    background-color: #1abc9c;
+    background-color: #20114c;
     color: #fff;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .2)
 }
@@ -5920,7 +5920,7 @@ body:not(.device-touch) .portfolio {
 }
 
 .portfolio-desc h3 a:hover {
-    color: #1abc9c
+    color: #20114c
 }
 
 .portfolio-desc span {
@@ -6397,7 +6397,7 @@ body:not(.device-touch) .portfolio {
 }
 
 #portfolio-navigation a:hover {
-    color: #1abc9c
+    color: #20114c
 }
 
 #portfolio-ajax-show #portfolio-navigation {
@@ -6498,7 +6498,7 @@ body:not(.device-touch) .portfolio {
 }
 
 .entry-title h2 a:hover, .entry-title h3 a:hover, .entry-title h4 a:hover {
-    color: #1abc9c
+    color: #20114c
 }
 
 .entry-meta {
@@ -6620,7 +6620,7 @@ body:not(.device-touch) .entry-link {
 
 .entry-link:hover {
     color: #fff;
-    background-color: #1abc9c;
+    background-color: #20114c;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .2)
 }
 
@@ -6743,8 +6743,8 @@ body:not(.device-touch) .entry-link {
         font-weight: 400
     }
     .post-timeline .entry:hover .entry-timeline, .post-timeline .entry:hover .timeline-divider {
-        border-color: #1abc9c;
-        color: #1abc9c
+        border-color: #20114c;
+        color: #20114c
     }
 }
 
@@ -6807,7 +6807,7 @@ body:not(.device-touch) .entry-link {
 
 .more-link {
     display: inline-block;
-    border-bottom: 1px solid #1abc9c;
+    border-bottom: 1px solid #20114c;
     padding: 0 2px;
     font-family: 'PT Serif', serif;
     font-style: italic
@@ -6959,7 +6959,7 @@ body:not(.device-touch) .entry-link {
 }
 
 .comment-content .comment-author a:hover {
-    color: #1abc9c
+    color: #20114c
 }
 
 .comment-content .comment-author span {
@@ -7181,7 +7181,7 @@ body:not(.device-touch):not(.device-sm):not(.device-xs) .product-image>a {
 }
 
 .product-title h3 a:hover, .single-product .product-title h2 a:hover {
-    color: #1abc9c
+    color: #20114c
 }
 
 .product-price {
@@ -7199,7 +7199,7 @@ body:not(.device-touch):not(.device-sm):not(.device-xs) .product-image>a {
 
 .product-price ins {
     text-decoration: none;
-    color: #1abc9c
+    color: #20114c
 }
 
 .product-image>.badge, .sale-flash {
@@ -7237,7 +7237,7 @@ body:not(.device-touch):not(.device-sm):not(.device-xs) .product-image>a {
 
 .single-product .product-price {
     font-size: 1.5rem;
-    color: #1abc9c;
+    color: #20114c;
     margin-bottom: 0
 }
 
@@ -7352,7 +7352,7 @@ body:not(.device-touch):not(.device-sm):not(.device-xs) .product-image>a {
 }
 
 .cart-product-thumbnail img:hover {
-    border-color: #1abc9c
+    border-color: #20114c
 }
 
 .cart-product-name a, .product-name a {
@@ -7420,7 +7420,7 @@ td.actions {
     }
     .cart:not(.cart-totals) .cart_item .cart-product-subtotal {
         font-size: 1.25rem;
-        color: #1abc9c
+        color: #20114c
     }
     .quantity .qty {
         width: 42px
@@ -7706,7 +7706,7 @@ td.actions {
     padding: 8px 22px;
     font-size: .875rem;
     line-height: 24px;
-    background-color: #1abc9c;
+    background-color: #20114c;
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
@@ -7738,7 +7738,7 @@ body:not(.device-touch) .button {
 }
 
 .button.button-dark:hover {
-    background-color: #1abc9c
+    background-color: #20114c
 }
 
 .button.button-mini {
@@ -7883,7 +7883,7 @@ body:not(.device-touch) .button {
 }
 
 .button.button-3d:hover {
-    background-color: #1abc9c;
+    background-color: #20114c;
     opacity: .9
 }
 
@@ -8493,7 +8493,7 @@ body:not(.device-touch) .button.button-full strong {
 
 .fbox-icon i, .fbox-icon img {
     border-radius: 50%;
-    background-color: #1abc9c
+    background-color: #20114c
 }
 
 .fbox-icon i {
@@ -8594,7 +8594,7 @@ body:not(.device-touch) .button.button-full strong {
 }
 
 .fbox-outline .fbox-icon a {
-    border: 1px solid #1abc9c;
+    border: 1px solid #20114c;
     padding: .25rem;
     border-radius: 50%
 }
@@ -8691,7 +8691,7 @@ body:not(.device-touch) .button.button-full strong {
 .fbox-plain .fbox-icon i, .fbox-plain .fbox-icon img {
     border: none;
     background-color: transparent!important;
-    color: #1abc9c;
+    color: #20114c;
     border-radius: 0
 }
 
@@ -9053,14 +9053,14 @@ body:not(.device-touch) .button.button-full strong {
 
 .process-steps li.active h5, .process-steps li.ui-tabs-active h5 {
     font-weight: 600;
-    color: #1abc9c
+    color: #20114c
 }
 
 .process-steps li.active a, .process-steps li.ui-tabs-active a {
-    background-color: #1abc9c!important;
+    background-color: #20114c!important;
     color: #fff;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
-    border-color: #1abc9c!important
+    border-color: #20114c!important
 }
 
 @media (min-width:992px) {
@@ -9230,7 +9230,7 @@ body:not(.device-touch) .i-bordered, body:not(.device-touch) .i-circled, body:no
 }
 
 .i-circled:hover, .i-rounded:hover {
-    background-color: #1abc9c;
+    background-color: #20114c;
     color: #fff;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
     box-shadow: 0 0 0 rgba(0, 0, 0, .2)
@@ -10362,7 +10362,7 @@ body:not(.device-touch) .social-icon i {
     top: -1px;
     height: 43px;
     line-height: 38px;
-    border-top: 2px solid #1abc9c
+    border-top: 2px solid #20114c
 }
 
 .tabs-alt.tabs-tb .tab-nav li.ui-tabs-active a {
@@ -10384,7 +10384,7 @@ body:not(.device-touch) .social-icon i {
 }
 
 .tabs-bb .tab-nav li.ui-tabs-active a {
-    border-bottom: 2px solid #1abc9c;
+    border-bottom: 2px solid #20114c;
     top: -2px;
     height: 44px;
     line-height: 44px
@@ -10413,7 +10413,7 @@ body:not(.device-touch) .social-icon i {
 
 .tab-nav.tab-nav2 li.ui-state-active a {
     top: 0;
-    background-color: #1abc9c;
+    background-color: #20114c;
     color: #fff
 }
 
@@ -10445,7 +10445,7 @@ body:not(.device-touch) .social-icon i {
 }
 
 .tab-nav-lg li.ui-tabs-active a {
-    color: #1abc9c
+    color: #20114c
 }
 
 .tab-nav-lg.tab-nav-section li.ui-tabs-active::after, .tab-nav-lg.tab-nav-section li.ui-tabs-active::before {
@@ -10623,7 +10623,7 @@ body:not(.device-touch) .social-icon i {
     border-color: rgba(0, 0, 0, .1)!important;
     color: #fff!important;
     font-weight: 700;
-    background-color: #1abc9c!important;
+    background-color: #20114c!important;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .2)
 }
 
@@ -10695,7 +10695,7 @@ body:not(.device-touch) .social-icon i {
 }
 
 .faqlist li a:hover {
-    color: #1abc9c!important
+    color: #20114c!important
 }
 
 .clients-grid, .testimonials-grid {
@@ -10935,7 +10935,7 @@ body:not(.device-touch) .clients-grid .grid-item a {
     width: 6px!important;
     height: 6px!important;
     border: none;
-    background-color: #1abc9c;
+    background-color: #20114c;
     opacity: .5
 }
 
@@ -11006,7 +11006,7 @@ body:not(.device-touch) .clients-grid .grid-item a {
 
 .team-title span {
     display: block;
-    color: #1abc9c;
+    color: #20114c;
     font-weight: 400;
     font-family: 'PT Serif', serif;
     font-style: italic;
@@ -11084,7 +11084,7 @@ body:not(.device-touch) .clients-grid .grid-item a {
 
 .pricing-title span {
     display: block;
-    color: #777;
+    /*color: #777;*/
     font-size: 1rem;
     margin: 3px 0
 }
@@ -11349,7 +11349,7 @@ body:not(.device-touch) .rounded-skill {
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1abc9c;
+    background-color: #20114c;
     overflow: visible!important;
     border-radius: 2px;
     -webkit-transition: width 1.2s ease-in-out;
@@ -11807,7 +11807,7 @@ blockquote.float-right {
 }
 
 .owl-carousel .owl-nav [class*=owl-]:hover {
-    background-color: #1abc9c!important;
+    background-color: #20114c!important;
     color: #fff!important;
     text-decoration: none
 }
@@ -11824,7 +11824,7 @@ blockquote.float-right {
     margin: 30px 4px 0 4px;
     opacity: .5;
     border-radius: 50%;
-    background-color: #1abc9c;
+    background-color: #20114c;
     -webkit-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition: all .3s ease
@@ -12250,14 +12250,14 @@ h3.titular-title {
 
 .title-block {
     padding: 2px 0 3px 20px;
-    border-left: 7px solid #1abc9c;
+    border-left: 7px solid #20114c;
     margin-bottom: 30px
 }
 
 .title-block-right {
     padding: 2px 20px 3px 0;
     border-left: 0;
-    border-right: 7px solid #1abc9c;
+    border-right: 7px solid #20114c;
     text-align: right
 }
 
@@ -12293,7 +12293,7 @@ h3.titular-title {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #333
+    /*color: #333*/
 }
 
 .emphasis-title h1, .emphasis-title h2 {
@@ -12369,7 +12369,7 @@ h3.titular-title {
 }
 
 .heading-block.border-color::after {
-    border-color: #1abc9c
+    border-color: #20114c
 }
 
 .emphasis-title {
@@ -12425,7 +12425,7 @@ h3.titular-title {
 }
 
 .title-border-color::after, .title-border-color::before {
-    border-top: 1px solid #1abc9c!important
+    border-top: 1px solid #20114c!important
 }
 
 .title-center::before {
@@ -12447,7 +12447,7 @@ h3.titular-title {
 .title-bottom-border h1, .title-bottom-border h2, .title-bottom-border h3, .title-bottom-border h4, .title-bottom-border h5, .title-bottom-border h6 {
     width: 100%;
     padding: 0 0 .75rem;
-    border-bottom: 2px solid #1abc9c
+    border-bottom: 2px solid #20114c
 }
 
 .before-heading {
@@ -12667,7 +12667,7 @@ body:not(.device-touch) #gotoTop {
 }
 
 #gotoTop:hover {
-    background-color: #1abc9c
+    background-color: #20114c
 }
 
 .read-more-wrap {
@@ -13222,8 +13222,8 @@ body:not(.device-touch) .tagcloud a {
 }
 
 .tagcloud a:hover {
-    border-color: #1abc9c!important;
-    color: #1abc9c!important
+    border-color: #20114c!important;
+    color: #20114c!important
 }
 
 .widget_archive li, .widget_archive ul, .widget_categories li, .widget_categories ul, .widget_links li, .widget_links ul, .widget_meta li, .widget_meta ul, .widget_nav_menu li, .widget_nav_menu ul, .widget_pages li, .widget_pages ul, .widget_recent_comments li, .widget_recent_comments ul, .widget_recent_entries li, .widget_recent_entries ul, .widget_rss li, .widget_rss ul {
@@ -13420,7 +13420,7 @@ body:not(.device-touch) .tagcloud a {
     height: 22px;
     line-height: 22px;
     text-align: center;
-    color: #777;
+    /*color: #777;*/
     background-color: #eee;
     border-radius: 50%
 }
@@ -13435,7 +13435,7 @@ body:not(.device-touch) .tagcloud a {
 
 .widget-filter-links li.active-filter span {
     color: #fff!important;
-    background-color: #1abc9c!important;
+    background-color: #20114c!important;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .1)
 }
 
@@ -13487,7 +13487,7 @@ body:not(.device-touch) .tagcloud a {
 }
 
 .nav-tree li.active>a, .nav-tree li.current>a, .nav-tree li:hover>a {
-    color: #1abc9c!important
+    color: #20114c!important
 }
 
 .nav-tree ul ul {
@@ -13760,7 +13760,7 @@ input.switch-toggle-round+label::after {
 }
 
 input.switch-toggle-round:checked+label::before {
-    background-color: #1abc9c
+    background-color: #20114c
 }
 
 input.switch-toggle-round:checked+label::after {
@@ -13891,12 +13891,12 @@ input.switch-toggle-flat+label::after {
 }
 
 input.switch-toggle-flat:checked+label {
-    background-color: #1abc9c
+    background-color: #20114c
 }
 
 input.switch-toggle-flat:checked+label::after {
     margin-left: 30px;
-    background-color: #1abc9c
+    background-color: #20114c
 }
 
 input.switch-flat-mini.switch-toggle-flat+label {
@@ -14000,7 +14000,7 @@ input.switch-flat-xlarge.switch-toggle-flat:checked+label::after {
 }
 
 .btn-link, .page-link, .page-link:focus, .page-link:hover {
-    color: #1abc9c
+    color: #20114c
 }
 
 .btn-link:focus, .btn-link:hover {
@@ -14045,12 +14045,12 @@ input.switch-flat-xlarge.switch-toggle-flat:checked+label::after {
 
 .page-item.active .page-link, .page-link:focus, .page-link:hover {
     color: #fff!important;
-    background-color: #1abc9c!important;
-    border-color: #1abc9c!important
+    background-color: #20114c!important;
+    border-color: #20114c!important
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-    background-color: #1abc9c
+    background-color: #20114c
 }
 
 label.checkbox, label.radio {
@@ -15216,11 +15216,11 @@ label.checkbox, label.radio {
 }
 
 .irs-bar, .irs-from, .irs-handle.state_hover>i:first-child, .irs-handle:hover>i:first-child, .irs-handle>i:first-child, .irs-single, .irs-to {
-    background-color: #1abc9c!important
+    background-color: #20114c!important
 }
 
 .irs-from::before, .irs-single::before, .irs-to::before {
-    border-top-color: #1abc9c!important
+    border-top-color: #20114c!important
 }
 
 @-webkit-keyframes fadeInDownSmall {

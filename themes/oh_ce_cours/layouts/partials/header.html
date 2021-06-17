@@ -16,7 +16,8 @@
                     ============================================= -->
                     <div id="top-search">
                         <a href="" onclick="Calendly.initPopupWidget({url: '{{ .Site.Params.calendly}}'});return false;"
-                            class="button button-rounded ml-3 d-none d-sm-block">Prendre rendez-vous</a>
+                            class="button button-rounded ml-3 d-none d-sm-block occ-background-indigo">Prendre
+                            rendez-vous</a>
                     </div><!-- #top-search end -->
                 </div>
 
@@ -50,7 +51,7 @@
                         {{ $active = or $active (and $menu_is_formations $section_is_domaines) }}
 
                         <li class="menu-item {{ if $active }} current {{ else}} underline-animate {{ end }}">
-                            <a class="menu-link " href="{{ .URL }}">
+                            <a class="menu-link occ-{{ $lower_menu_title }}" href="{{ .URL }}">
                                 <div>{{ .Title }}</div>
                             </a>
                         </li>
@@ -62,3 +63,10 @@
     </div>
     <div class="header-wrap-clone"></div>
 </header><!-- #header end -->
+
+{{/*
+<a class="menu-link occ-academies occ-formations occ-experts" href="{{ .URL }}">
+    <div>{{ .Title }}</div>
+</a>
+
+*/}}
